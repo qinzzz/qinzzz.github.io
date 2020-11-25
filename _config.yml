@@ -88,6 +88,8 @@ projects: true
 about: true
 blog: false
 
+misc: true
+
 # do you want to show the "read time" of the posts?
 read-time: false
 
