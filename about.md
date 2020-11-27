@@ -2,9 +2,9 @@
 title: About
 layout: page
 ---
-# Hello
+# Hello!
 
-I am currently a senior student majoring in [Information Security](https://infosec.sjtu.edu.cn/#) at [SEIEE](http://english.seiee.sjtu.edu.cn)
+I am Qinxin Wang. I am currently a senior student majoring in [Information Security](https://infosec.sjtu.edu.cn/#) at [SEIEE](http://english.seiee.sjtu.edu.cn)
 , [Shanghai Jiao Tong University](http://en.sjtu.edu.cn), graduating in 2021.
 I was an exchange student at [University of Texas at Austin](https://www.utexas.edu) in 2020 spring, majoring in Computer Science.
 

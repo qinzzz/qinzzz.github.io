@@ -12,4 +12,4 @@ category: project
 author: qinxinWang
 externalLink: false
 ---
-[report](../assets/posts/midreview.pdf) (in Chinese)
+[Midterm report](../assets/posts/midreview.pdf) (in Chinese)
