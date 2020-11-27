@@ -5,7 +5,7 @@ date: 2020-6-28 22:10
 tag: academic
 image: https://sergiokopplin.github.io/indigo/assets/images/jekyll-logo-light-solid.png
 headerImage: true
-projects: true
+projects: false
 hidden: true # don't count this post in blog pagination
 description: ""
 category: project

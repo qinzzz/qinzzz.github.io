@@ -14,4 +14,53 @@ externalLink: false
 ---
 Supervised by Prof. Ahmed Gheith, UT Austin
 
-[Code](https://github.com/qinzzz/BobOS)
+**[Code](https://github.com/qinzzz/BobOS)**
+
+I built basic components of an operating system based on skeleton code provided by CS439 at UT Austin.   
+My work includes implementing heap memory allocation, preemptive multi-threading, synchronization primitives, file system, virtual memory, system calls, etc. 
+
+---
+
+## P1
+Bootstrap kernel and critical section. 
+
+## P2&P3
+Deal with heap memory allocation. Use header&footer for every memory block and a double linked list to trace all free blocks.
+Implement malloc(), free(), new, delete. Tested with space and time efficiency.
+
+## P4
+Cooperating multi-threading. A thread calls yield() to switch to another thread. Threads wait in the ready queue until some other threads give up their task and yield.
+
+## P5
+Preemptive multi-threading.  
+APIT generates an interrupte every 1ms and calls yield() to switch the threads.
+Sycronization primitives. Implement semaphore and use it for barrier, bounded buffer, etc.
+
+![buffer](../assets/posts/bounded_buffer.png)  
+*Illustration of bounded buffer. Credit to Karl Marklund*
+
+## P6
+An ext2-like file system. Mount a FS from a disk or initialize on a device. You can read, write, find files and create hard links.
+
+## p7
+Enable virtual memory. Allow each process to have its private, lazily-mapped virtual address space. 
+Handle the page fault exception and map virtual address space to physical address space.
+
+![vspace](../assets/posts/vspace.gif)  
+*Credit to Garrett Gu*
+
+## p8
+Go to the User Mode. Implement the system call handler in kernel.
+
+Workflow:  
+Init -> kernelMain -> user program -> sys.S -> sysHandler -> sys.S -> user 
+
+## p9
+Advanced system calls. Implement system calls including read, write, sem, fork, execl, wait, etc.
+Use process table to manage resources(file, semaphore, process) created by system calls. 
+- fork() syscall creates a copy of the current process (as child process)
+- exec() replaces the current process with a different one and run some program
+
+
+
+
