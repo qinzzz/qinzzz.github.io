@@ -1,7 +1,7 @@
 ---
 title: "Configuration Center For SARO"
 layout: post
-date: 2020-10-1 22:10
+date: 2020-11-15 22:10
 tag: academic
 image: https://sergiokopplin.github.io/indigo/assets/images/jekyll-logo-light-solid.png
 headerImage: true

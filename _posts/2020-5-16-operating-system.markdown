@@ -21,42 +21,41 @@ My work includes implementing heap memory allocation, preemptive multi-threading
 
 ---
 
-## P1
+## Critical senction
 Bootstrap kernel and critical section. 
 
-## P2&P3
-Deal with heap memory allocation. Use header&footer for every memory block and a double linked list to trace all free blocks.
-Implement malloc(), free(), new, delete. Tested with space and time efficiency.
+## Heap memory allocation
+Implement malloc(), free(), new, delete. Tested with space and time efficiency.  
+Use a double linked list to trace all free blocks and add header & footer for every memory block.
 
-## P4
-Cooperating multi-threading. A thread calls yield() to switch to another thread. Threads wait in the ready queue until some other threads give up their task and yield.
+## Cooperative multi-threading
+A thread calls yield() to switch to another thread. Threads wait in the ready queue until some other threads give up their task and yield.
 
-## P5
-Preemptive multi-threading.  
+## Preemptive multi-threading. 
 APIT generates an interrupte every 1ms and calls yield() to switch the threads.
 Sycronization primitives. Implement semaphore and use it for barrier, bounded buffer, etc.
 
 ![buffer](../assets/posts/bounded_buffer.png)  
 *Illustration of bounded buffer. Credit to Karl Marklund*
 
-## P6
+## File system
 An ext2-like file system. Mount a FS from a disk or initialize on a device. You can read, write, find files and create hard links.
 
-## p7
+## Virtual memory
 Enable virtual memory. Allow each process to have its private, lazily-mapped virtual address space. 
 Handle the page fault exception and map virtual address space to physical address space.
 
 ![vspace](../assets/posts/vspace.gif)  
 *Credit to Garrett Gu*
 
-## p8
+## System calls
 Go to the User Mode. Implement the system call handler in kernel.
 
 Workflow:  
 Init -> kernelMain -> user program -> sys.S -> sysHandler -> sys.S -> user 
 
-## p9
-Advanced system calls. Implement system calls including read, write, sem, fork, execl, wait, etc.
+## Advanced system calls
+Implement system calls including read, write, sem, fork, execl, wait, etc.
 Use process table to manage resources(file, semaphore, process) created by system calls. 
 - fork() syscall creates a copy of the current process (as child process)
 - exec() replaces the current process with a different one and run some program
