@@ -18,13 +18,13 @@ I worked on question answering for academic literature.
 In 2020, I was a research assistant at UC Berkeley, supervised by Prof. [Michael Mahoney](https://www.stat.berkeley.edu/~mmahoney/).
 My Research topic was weakly supervised phrase localization.
 
-From Jun to Sep,2020, I was an intern at Alibaba Group, working with AI-OS team.
+From Jun to Sep,2020, I was an intern at Alibaba Group, working with Artificial Intelligence Online Serving team.
 [Here](https://alibabatech.medium.com/the-achievement-of-a-computing-lifetime-alibaba-ai-os-10-years-on-442e5f25434a) is a brief introduction of this team.
 
 I will complete my undergraduate thesis with Prof. [Shilin Wang](https://scholar.google.com/citations?user=8tg3mv0AAAAJ&hl=zh-CN) at School of Cyber Science and Engineering. 
 
 ## Publication
-#### MAF: Multimodal Alignment Framework for Weakly-Supervised Phrase Grounding  
+*MAF: Multimodal Alignment Framework for Weakly-Supervised Phrase Grounding*  
 Qinxin Wang, [Hao Tan](https://www.cs.unc.edu/~airsplay/), 
 [Sheng Shen](https://sincerass.github.io), 
 [Michael W. Mahoney](https://www.stat.berkeley.edu/~mmahoney/), 
@@ -36,6 +36,6 @@ EMNLP 2020 (short paper)
 
 ## Projects
 
-<a class="link" href="{{ site.url }}/Projects">more...</a>
+<a class="link" href="{{ site.url }}/Projects">Click here!</a>
 
 

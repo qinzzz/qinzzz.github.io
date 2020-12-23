@@ -1,5 +1,5 @@
 ---
-title: "Configuration Center For SARO"
+title: "Configuration-as-Code, Alibaba"
 layout: post
 date: 2020-11-15 22:10
 tag: academic
