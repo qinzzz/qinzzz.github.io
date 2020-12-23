@@ -22,5 +22,5 @@ The experimental results demonstrate that our model yield superior performance o
 Practically, our work has been deployed to help develop services on academic QA, which benefits researchers by saving them much time on retrieving relevant papers.
 
 
-![paper](../assets/posts/model3.pdf)
+![pic](../assets/posts/model3.pdf)
 
